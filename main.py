@@ -17,12 +17,12 @@ software_pattern = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
 engineer_pattern = r"\b(engineer|engineering|technical)"
 # senior word patterns  
 senior_pattern = r"\b(staff|principal|director)"
-
+junior_pattern = r"\b(junior|entry level|New Grad|Associate)"
 description_patterns = r"\b(As an|work on|own problems|looking for)"
 
 experience_patterns = (
     r"\b(?:\d+(?:\+|[-–]\d+)?\s+)?"
-    r"(?:years of experience|years|year|proficient)\b"
+    r"(?:years of experience|years|year|experience with|experience in|proficient)\b"
 )
 
 class DescriptionParser(HTMLParser):
@@ -55,6 +55,36 @@ def html_to_text(content):
     return parser.get_text()
 
 
+def classify_seniority(title):
+    senior_pattern = (
+        r"\b(senior|sr\.?|staff|principal|lead|director|manager|head|"
+        r"vp|vice president|chief|distinguished)\b"
+    )
+    junior_pattern = (
+        r"\b(junior|jr\.?|entry[- ]level|new grad|associate|intern|"
+        r"apprentice)\b"
+    )
+
+    if re.search(senior_pattern, title, re.IGNORECASE):
+        return "senior"
+    if re.search(junior_pattern, title, re.IGNORECASE):
+        return "junior"
+    return "mid"
+
+
+def get_experience_matches(description):
+    experience_matches = []
+
+    for match in re.finditer(experience_patterns, description, re.IGNORECASE):
+        experience_match = {
+            "match": match.group(),
+            "following_text": description[match.end():match.end() + 200].strip(),
+        }
+        experience_matches.append(experience_match)
+
+    return experience_matches
+
+
 def print_match_excerpts(label, pattern, text, limit=3, chars_after=200):
     matches = list(re.finditer(pattern, text, re.IGNORECASE))
     print(len(matches))
@@ -74,6 +104,7 @@ def print_match_excerpts(label, pattern, text, limit=3, chars_after=200):
 
 
 matching_jobs = []
+analyzed_jobs = []
 
 for job in response.get("jobs", []):
     title = job["title"].lower()
@@ -102,19 +133,49 @@ for job in response.get("jobs", []):
 
         data = requests.get(url).json()
         description = html_to_text(data.get("content", ""))
-        print(title)
-        print_match_excerpts("Description", description_patterns, description)
-        print("------------------------------------------------------")
-        print_match_excerpts("Experience", experience_patterns, description)
-        print("\n")
-        with open("job_desc.json", "w") as file:
-            json.dump(data, file, indent= 4)
+        analyzed_jobs.append({
+            "id": job["id"],
+            "title": job["title"],
+            "location": job["location"]["name"],
+            "url": job["absolute_url"],
+            "score": job["score"],
+            "seniority": classify_seniority(job["title"]),
+            "experience_matches": get_experience_matches(description),
+        })
 
 
 matching_jobs.sort(key=lambda job: job["score"], reverse=True)
 
+seniority_counts = {"junior": 0, "mid": 0, "senior": 0}
+for job in analyzed_jobs:
+    seniority_counts[job["seniority"]] += 1
 
-for job in matching_jobs:
-    print(f"{job['title']} — score: {job['score']} — location: {job['location']['name']}\n{job['absolute_url']}\n")
-    print(type(job['location']['name']))
+total_jobs = len(analyzed_jobs)
+junior_count = seniority_counts["junior"]
+senior_count = seniority_counts["senior"]
+
+analysis = {
+    "company": company_token,
+    "total_matching_jobs": total_jobs,
+    "seniority_frequency": {
+        level: {
+            "count": count,
+            "frequency": round(count / total_jobs, 4) if total_jobs else 0,
+        }
+        for level, count in seniority_counts.items()
+    },
+    "senior_to_junior_likelihood": {
+        "senior_probability": round(senior_count / total_jobs, 4) if total_jobs else 0,
+        "junior_probability": round(junior_count / total_jobs, 4) if total_jobs else 0,
+        "senior_to_junior_ratio": (
+            round(senior_count / junior_count, 4) if junior_count else None
+        ),
+    },
+    "jobs": analyzed_jobs,
+}
+
+with open("job_analysis.json", "w") as file:
+    json.dump(analysis, file, indent=4)
+
+print(json.dumps(analysis, indent=4))
 

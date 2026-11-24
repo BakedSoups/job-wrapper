@@ -1,0 +1,1287 @@
+{
+    "company": "doordashusa",
+    "total_matching_jobs": 47,
+    "seniority_frequency": {
+        "junior": {
+            "count": 3,
+            "frequency": 0.0638
+        },
+        "mid": {
+            "count": 24,
+            "frequency": 0.5106
+        },
+        "senior": {
+            "count": 20,
+            "frequency": 0.4255
+        }
+    },
+    "senior_to_junior_likelihood": {
+        "senior_probability": 0.4255,
+        "junior_probability": 0.0638,
+        "senior_to_junior_ratio": 6.6667
+    },
+    "jobs": [
+        {
+            "id": 7848317,
+            "title": "AI Research Fellowship, (Summer and Fall 2026)",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7848317",
+            "score": -5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "year",
+                    "following_text": "or beyond), recent PhDs, or independent researchers with published work at top ML venues or equivalent demonstrated output \n You\u2019re an engineer with deep research instincts who have shipped ambitious"
+                },
+                {
+                    "match": "years of experience",
+                    "following_text": "or specific degrees. Exceptional candidates from non-traditional backgrounds are strongly encouraged to apply. \n Compensation \n The fellowship is 12 weeks long with potential opportunity for extensio"
+                }
+            ]
+        },
+        {
+            "id": 7658934,
+            "title": "Associate Manager, AI Research Lab Strategy & Operations",
+            "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7658934",
+            "score": -5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years of experience",
+                    "following_text": "in finance, management consulting, business operations, business analytics, or high-growth/early-stage startup environments \n Exceptional communicator and operator who can partner directly with in-fi"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8350225,
+            "title": "Associate Manager, New Verticals - In-Store AI Platform Strategy & Operations  ",
+            "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Seattle, WA; Washington, DC; Chicago, IL; Tempe, AZ",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8350225",
+            "score": -5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "6+ years of experience",
+                    "following_text": ". You\u2019ve succeeded in high-performing cultures (tech, operations, strategy, consulting, banking, startups or a related experience). \n You have a completed Bachelor\u2019s Degree ideally in finance, economi"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8122134,
+            "title": "Embedded Software Engineer (Firmware) - DoorDash Air",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8122134",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "4+ years",
+                    "following_text": "of hands-on experience in embedded systems development. \n Deep expertise in bare-metal programming on ARM microcontrollers. \n Strong proficiency in C/C++ for embedded targets and firmware design patt"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "embedded systems development. \n Deep expertise in bare-metal programming on ARM microcontrollers. \n Strong proficiency in C/C++ for embedded targets and firmware design patterns. \n Experience with ha"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "hardware bring-up and low-level debugging on custom boards. \n Solid understanding of digital electronics, buses (I2C, SPI, UART, CAN), and embedded peripherals. \n Strong system-level thinking, with a"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "RTOS (e.g., FreeRTOS, Zephyr) or Embedded Linux on constrained systems. \n Familiarity with motor control, power systems, or battery management in robotics or automotive contexts. \n Experience working"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8105894,
+            "title": "Member of Technical Staff - Applied AI",
+            "location": "San Francisco, CA; Sunnyvale, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8105894",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "Experience with",
+                    "following_text": "the latest AI tools building AI products \n Familiarity with building agent solutions, including context management, defining evals, measuring performance \n Shipped a production AI agent or something"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 6682078,
+            "title": "Robotics Software Engineer - Labs, DoorDash Air",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6682078",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of industry experience in software development for robotics or autonomous systems \n Proficiency in C/C++ and Python. \n Experience with ROS/ROS 2. \n Familiarity with sensor integration and data proces"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "software development for robotics or autonomous systems \n Proficiency in C/C++ and Python. \n Experience with ROS/ROS 2. \n Familiarity with sensor integration and data processing techniques. \n Experie"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "ROS/ROS 2. \n Familiarity with sensor integration and data processing techniques. \n Experience with debugging tools and techniques for robotic systems. \n Experience with robotics, drones, and autonomo"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "debugging tools and techniques for robotic systems. \n Experience with robotics, drones, and autonomous systems. \n Must be comfortable regularly exercising discretion and independent judgment in perfo"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "robotics, drones, and autonomous systems. \n Must be comfortable regularly exercising discretion and independent judgment in performing job duties, including evaluating options, making informed decisi"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8226916,
+            "title": "Senior Associate, AI Solutions Architect, Marketing Technology",
+            "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington, DC.",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8226916",
+            "score": -5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "2-4 years of experience",
+                    "following_text": "at the intersection of marketing and technology, with hands-on experience building tools or automations. \n Technical experience with JavaScript, TypeScript, or Python (can read, modify, and debug cod"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "JavaScript, TypeScript, or Python (can read, modify, and debug code), along with familiarity with APIs, Postgres, ETLs, SQL, and data structures. \n Experience implementing AI solutions beyond basic c"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "marketing technology platforms and tools, or a background in Marketing Ops, Marketing Analytics, or MarTech. \n We expect this position to be filled by 11/09/2026 \n Compensation \n The successful candi"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8136498,
+            "title": "Senior Software Engineer, Backend (All Teams)",
+            "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8136498",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of industry experience \n Prior experience working with backend tech stacks \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, includ"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "service oriented architecture, writing REST API\u2019s, unit testing, and architectural design \n Understanding of modern web stacks and architecture (HTTP, REST) \n Experience with SQL and NoSQL databases"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "SQL and NoSQL databases and other technologies (e.g. Postgres, Redis, Elasticsearch, RabbitMQ) \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8208005,
+            "title": "Senior Software Engineer, Build Systems & CI",
+            "location": "Bay Area, CA; Seattle, WA; Los Angeles, CA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8208005",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of software engineering experience building and operating production systems. \n You\u2019re interested in improving developer productivity and applying your engineering skills to build systems and CI. Exp"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "build or CI systems at scale, including work with Bazel, Buildkite, or large monorepos, is a plus but not required. \n You write maintainable production software in a language such as Go, Java, Kotlin"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8193584,
+            "title": "Senior Software Engineer, Data Engineering",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8193584",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of professional experience \n 3+ years experience working in data engineering, business intelligence, or a similar role \n Proficiency in programming languages such as Python/Java \n 3+ years of experie"
+                },
+                {
+                    "match": "3+ years",
+                    "following_text": "experience working in data engineering, business intelligence, or a similar role \n Proficiency in programming languages such as Python/Java \n 3+ years of experience in ETL orchestration and workflow"
+                },
+                {
+                    "match": "3+ years of experience",
+                    "following_text": "in ETL orchestration and workflow management tools like Airflow, Flink, Oozie and Azkaban using AWS/GCP \n Expert in Database fundamentals, SQL and distributed computing \n 3+ years of experience with"
+                },
+                {
+                    "match": "3+ years of experience",
+                    "following_text": "with the Distributed data/similar ecosystem (Spark, Hive, Druid, Presto) and streaming technologies such as Kafka/Flink. \n Experience working with Snowflake, Redshift, PostgreSQL and/or other DBMS pl"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8350965,
+            "title": "Senior Software Engineer - Developer Experience, Android",
+            "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8350965",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of Android development experience.You have a product mindset and apply that to how you would build out platform services.You love people, systems, and software and are competent working with all thre"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8139094,
+            "title": "Senior Software Engineer, iOS",
+            "location": "San Francisco, CA ; Sunnyvale, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8139094",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of industry experience \n B.S., M.S., or PhD. in Computer Science or equivalent \n Expert at Swift, and iOS SDK \n Familiarity with networking, storage, and Cocoapods \n Systems and OOP knowledge \n Exper"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8143205,
+            "title": "Senior Software Engineer, Machine Learning",
+            "location": "San Francisco, CA; New York, NY; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8143205",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "5+ years of experience",
+                    "following_text": "developing causal inference or causal ML systems, with a record of using the results to change production decisions. \n A record of leading ambiguous projects across team boundaries, making technical"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "treatment effect estimation or dose-response modeling and relevant methods such as doubly robust estimation, double machine learning, or off-policy evaluation. You choose methods based on the decisio"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8384127,
+            "title": "Senior Software Engineer, ML Serving Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8384127",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "6+ years",
+                    "following_text": "of software engineering experience designing, building, and operating production infrastructure or distributed systems. \n You have hands-on experience serving large or complex neural models online, w"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "multi-GPU inference, model parallelism, model-aware caching, or accelerator scheduling. \n Experience building model workflows, deployment tooling, or instrumentation with Metaflow, Helm, or OpenTelem"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "every technology is not required. \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and is determined based on job-related factors including, but no"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 7763162,
+            "title": "Senior Software Engineer, Motion Planning \u2013 DOT",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7763162",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "experience in",
+                    "following_text": "the field. \n You\u2019re excited about this opportunity because you will\u2026 \n Design and ship real-time behavior and motion planning features for complex urban/suburb driving scenarios. Especially motion pl"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8193574,
+            "title": "Senior Software Engineer, Spark Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8193574",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "years",
+                    "following_text": "and beyond. You will own the deep, cross-cutting problems that span the runtime, the shuffle service, the scheduler, and the overall service reliability \u2014 making the architectural calls that compound"
+                },
+                {
+                    "match": "year",
+                    "following_text": "technical direction for an in-house Spark-on-Kubernetes platform \u2014 runtime, shuffle, scheduler, reliability \u2014 and make the architectural calls that compound for years. \n Own the deepest distributed-s"
+                },
+                {
+                    "match": "years",
+                    "following_text": ". \n Own the deepest distributed-systems problems on the team: shuffle architecture, multi-tenant scheduling, runtime performance, and the failure modes that only show up at scale. \n Partner with the E"
+                },
+                {
+                    "match": "6+ years",
+                    "following_text": "of industry experience designing and operating distributed systems at scale. \n Deep, hands-on experience with Apache Spark \u2014 internals, query execution, shuffle, the executor/driver model \u2014 at platfo"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "Apache Spark \u2014 internals, query execution, shuffle, the executor/driver model \u2014 at platform scale on Amazon EMR, Databricks, or an in-house deployment, with a focus on platform operations (runtime up"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "one or more of: remote/external shuffle systems (Celeborn, Magnet, Cosco, or similar), batch/big-data schedulers (YuniKorn, Volcano, Kueue, or the Spark-on-Kubernetes operator), or the observability"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "Scala, Java, Python, or Go; strong SQL. \n You are located or willing to relocate to the Bay Area, Seattle, or NYC. \n Applications for this position are accepted on an ongoing basis \n Compensation \n T"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8138486,
+            "title": "Software Engineer, Backend (All Teams)",
+            "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8138486",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "industry experience) working with backend tech stacks \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, genera"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "service oriented architecture, writing REST API\u2019s, unit testing, and architectural design \n Understanding of modern web stacks and architecture (HTTP, REST) \n Experience with SQL and NoSQL databases"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "SQL and NoSQL databases and other technologies (e.g. Postgres, Redis, Elasticsearch, RabbitMQ) \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 6599474,
+            "title": "Software Engineer, Backend - DoorDash Air",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6599474",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "6+ years",
+                    "following_text": "of industry experience as a software engineer, with a focus on backend systems, robotics, or autonomous systems. \n Strong experience in developing and implementing algorithms for path planning. \n Exp"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "developing and implementing algorithms for path planning. \n Experience with simulations and testing frameworks for robotics or autonomous systems. \n Experience with either Kotlin, or C++. \n Ability t"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "simulations and testing frameworks for robotics or autonomous systems. \n Experience with either Kotlin, or C++. \n Ability to improve efficiency, scalability, and stability of distributed systems, esp"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "either Kotlin, or C++. \n Ability to improve efficiency, scalability, and stability of distributed systems, especially in a real-time operational context. \n Experience with service-oriented architectu"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "service-oriented architecture, writing REST APIs, unit testing, and architectural design. \n Understanding of networking and communication protocols relevant to robotics and IoT (e.g., TCP/IP, UDP, MQ"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "SQL or NoSQL databases. \n Familiarity with aviation regulations and safety standards (e.g., FAA Part 107) is a strong plus. \n Nice to Have \n Experience with these technologies is not required but hel"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "these technologies is not required but helpful. \n Familiarity with Kotlin \n gRPC, Kafka, Redis, Postgres, or Cassandra \n AWS, Kubernetes, Docker \n Experience with ROS (Robot Operating System) or othe"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "ROS (Robot Operating System) or other robotics middleware \n Familiarity with geospatial data and mapping technologies (GIS) \n \n We use Covey as part of our hiring and / or promotional process for job"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8180903,
+            "title": "Software Engineer, Cloud Infrastructure",
+            "location": "New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8180903",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "5+ years of experience",
+                    "following_text": "as a software engineer in infrastructure, cloud, or platform engineering \n Deep, hands-on experience with AWS (IAM, Organizations, VPC, S3, ECR, etc.); GCP experience is a plus \n Experience with clou"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "AWS (IAM, Organizations, VPC, S3, ECR, etc.); GCP experience is a plus \n Experience with cloud networking primitives like VPC, PrivateLink, Transit Gateway and VPC peering. \n Experience with Infrastr"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "cloud networking primitives like VPC, PrivateLink, Transit Gateway and VPC peering. \n Experience with Infrastructure as Code tooling like Terraform and GitOps workflows such as Atlantis or ArgoCD \n E"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Infrastructure as Code tooling like Terraform and GitOps workflows such as Atlantis or ArgoCD \n Experience with programming languages like Go and Python \n Experience with Kubernetes \n Track record of"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "programming languages like Go and Python \n Experience with Kubernetes \n Track record of taking ambiguous problems from customer teams to well-paved solutions that can be adopted across multiple teams"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Kubernetes \n Track record of taking ambiguous problems from customer teams to well-paved solutions that can be adopted across multiple teams \n You are curious, independent, ambitious, and can find so"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "cloud cost management and vendor relationships \n \n Compensation \n \n The successful candidate's starting pay will fall within the pay range listed below and is determined based on job-related factors"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8202736,
+            "title": "Software Engineer, Code Quality",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY; Los Angeles, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8202736",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8192187,
+            "title": "Software Engineer, Data and AI Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192187",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "3+ years",
+                    "following_text": "of industry experience in software engineering \n Strong backend fundamentals, especially in Go,Python and the ability to own a service in production \n Shipped an LLM-powered feature to real users, ha"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "software engineering \n Strong backend fundamentals, especially in Go,Python and the ability to own a service in production \n Shipped an LLM-powered feature to real users, hands-on with retrieval and"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "MCP, agent frameworks, or tool-calling architectures in production \n Experience with traditional and modern reporting or analytics tooling, data governance, controls and multi-tenant data platforms"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "traditional and modern reporting or analytics tooling, data governance, controls and multi-tenant data platforms \n Prompt and context optimization at scale -\u00a0 caching, token budgeting, cost/latency t"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8192116,
+            "title": "Software Engineer, Data Engineering",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192116",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "3+ years",
+                    "following_text": "of professional experience working in data engineering, business intelligence, or a similar role \n You have proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full softwar"
+                },
+                {
+                    "match": "3+ years of experience",
+                    "following_text": "in ETL orchestration and workflow management tools like Airflow, Flink, Oozie and Azkaban using AWS/GCP \n Expert in Database fundamentals, SQL and distributed computing \n 3+ years of experience with"
+                },
+                {
+                    "match": "3+ years of experience",
+                    "following_text": "with the Distributed data/similar ecosystem (Spark, Hive, Druid, Presto) and streaming technologies such as Kafka/Flink. \n Experience working with Snowflake, Redshift, PostgreSQL and/or other DBMS pl"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8191886,
+            "title": "Software Engineer, Data Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8191886",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of industry experience in software engineering \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, generating co"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "software engineering \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, generating code, testing, monitoring an"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "Big Data infrastructure & governance - you've built meaningful pieces of data infrastructure. Bonus if those were open-sourced technologies like DataHub, Spark, Airflow, Kafka, Flink \n Experience imp"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8197854,
+            "title": "Software Engineer - Developer Experience, Android",
+            "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8197854",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of Android development experience. \n You have a product mindset and apply that to how you would build out platform services. \n You love people, systems, and software and are competent working with al"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8207877,
+            "title": "Software Engineer, Full Stack - Developer Insights",
+            "location": "San Francisco, CA; New York, NY; Los Angeles, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8207877",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2 years of experience",
+                    "following_text": "in web technologies using Typescript with React on the frontend with Java, Kotlin, Python or Go backend experience. \n You have a product mindset and apply that to how you would build out platform ser"
+                },
+                {
+                    "match": "proficient",
+                    "following_text": "in both. \n You\u2019re curious and dive deep into different system architectures. \n You are an organized and excellent written and verbal communicator. \n You have proficiency in using AI coding tools (e.g"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8163709,
+            "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
+            "location": "Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8163709",
+            "score": 5,
+            "seniority": "junior",
+            "experience_matches": [
+                {
+                    "match": "years",
+                    "following_text": "of full-time professional experience \n Experience using at least one object-oriented programming language, such as Python, Java, or Kotlin \n A solid understanding of algorithms and data structures"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8161616,
+            "title": "Software Engineering, Android (All Teams)",
+            "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8161616",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of industry experience \n Expert at developing within Android SDK in a product environment \n Systems and OOP knowledge \n Expertise with Android testing best practices and frameworks. \n Experience buil"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8263774,
+            "title": "Software Engineer, Intern - Labs (Summer 2027)",
+            "location": " San Francisco, CA; Sunnyvale, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263774",
+            "score": 5,
+            "seniority": "junior",
+            "experience_matches": [
+                {
+                    "match": "2 years",
+                    "following_text": "of full-time work experience, and are graduating between Fall 2027 to Summer 2028. \n You are available for a May or June 2027 start date (Internships are only hosted during the Summer) \n You have exp"
+                },
+                {
+                    "match": "proficient",
+                    "following_text": "experience working with at least 1 object-oriented programming language (e.g., Python, Java, Kotlin, etc.) \n You have experience writing clean code, working with version control, and doing unit testi"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "solutions for systems monitoring, live deployments, and continuous integration \n Experience with real-time technology problems \n Experience working with service-oriented architecture, writing APIs, a"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "real-time technology problems \n Experience working with service-oriented architecture, writing APIs, and designing systems. \n Participation in project or research-based technical work, hackathons, te"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8171041,
+            "title": "Software Engineer, Intern (Summer 2027) - US",
+            "location": "New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041",
+            "score": 5,
+            "seniority": "junior",
+            "experience_matches": [
+                {
+                    "match": "2 years",
+                    "following_text": "of full-time work experience, and are graduating between Fall 2027 to Summer 2028. You are available for a May or June 2027 start date (Internships are only hosted during the Summer) \n You have exper"
+                },
+                {
+                    "match": "proficient",
+                    "following_text": "experience working with at least 1 object-oriented programming language (e.g., Python, Java, Kotlin, etc.) \n You have experience writing clean code, working with version control, and doing unit testi"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "solutions for systems monitoring, live deployments, and continuous integration \n Experience with real-time technology problems \n Experience working with service-oriented architecture, writing APIs, a"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "real-time technology problems \n Experience working with service-oriented architecture, writing APIs, and designing systems. \n Participation in project or research-based technical work, hackathons, te"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8141072,
+            "title": "Software Engineer, iOS",
+            "location": "Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8141072",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "5+ years",
+                    "following_text": "of industry experience \n B.S., M.S., or PhD. in Computer Science or equivalent \n Expert at Swift, and iOS SDK \n Familiarity with networking, storage, and Cocoapods \n Systems and OOP knowledge \n Exper"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8264542,
+            "title": "Software Engineer, Machine Learning Platform - Gen AI",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8264542",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "3+ years",
+                    "following_text": "of industry experience in software engineering \n Strong backend engineering fundamentals, especially in Python and distributed systems. \n Experience building production services, APIs, data pipelines"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "software engineering \n Strong backend engineering fundamentals, especially in Python and distributed systems. \n Experience building production services, APIs, data pipelines, or ML infrastructure at"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "LLM inference and/or fine-tuning of open-weight models in production \u2014 serving (latency, throughput, batching, autoscaling, GPU utilization) and/or fine-tuning (SFT/DPO/LoRA). \n Ability to work acros"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "LLM inference engines and serving frameworks (e.g., vLLM, SGLang, TensorRT-LLM) in production \n Experience with distributed/multi-node fine-tuning and training pipelines (SFT, DPO/RLHF, LoRA), includ"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "distributed/multi-node fine-tuning and training pipelines (SFT, DPO/RLHF, LoRA), including data preparation and evaluation \n GPU performance work \u2014 multi-node/distributed inference, KV-cache/memory o"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Kubernetes, cloud infrastructure (AWS/GCP), GPUs, serverless/elastic GPU platforms (e.g., Modal), or high-throughput batch systems \n Experience with LLM gateways, model routing, vendor abstraction, o"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "LLM gateways, model routing, vendor abstraction, or cost attribution \n Experience building developer platforms, internal platforms, or self-serve infrastructure \n Experience building and deploying AI"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "eval systems, LLM observability, tracing, RAG, search, or vector databases \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and is determined based"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8283735,
+            "title": "Software Engineer, ML Infrastructure (MDX)",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8283735",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of industry experience in software engineering \n Hands-on experience building ML infrastructure in production including feature engineering and feature stores, data pipelines for ML, training and exp"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "software engineering \n Hands-on experience building ML infrastructure in production including feature engineering and feature stores, data pipelines for ML, training and experimentation platforms, mo"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "agent evaluation, LLM observability, tracing, or building eval harnesses \n Experience with ML platforms or MLOps tooling (e.g., Kubeflow, MLflow, Ray, Airflow) \n Experience with Kubernetes and cloud"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "ML platforms or MLOps tooling (e.g., Kubeflow, MLflow, Ray, Airflow) \n Experience with Kubernetes and cloud infrastructure (AWS/GCP) \n Experience building developer tools, internal platforms, or self"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Kubernetes and cloud infrastructure (AWS/GCP) \n Experience building developer tools, internal platforms, or self-serve infrastructure \n Experience with guardrails, safety, or cost controls for LLM sy"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "guardrails, safety, or cost controls for LLM systems \n \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and is determined based on job-related fact"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8263726,
+            "title": "Software Engineer, ML Serving Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; \u2022 Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263726",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of software engineering experience building and maintaining production services or infrastructure. \n You have strong computer science fundamentals and proficiency in a backend or systems programming"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "ML inference infrastructure, online feature retrieval, or other latency-sensitive distributed services. \n Experience operating containerized workloads on Kubernetes, including deployment, resource ma"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8046982,
+            "title": "Software Engineer, Planning & Controls - Autonomy & Robotics, DoorDash Air",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8046982",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "experience with",
+                    "following_text": "aerodynamics knowledge \n You have experience developing and tuning flight controllers, interfacing with state estimation \n You have excellent knowledge of motion planning algorithms (trajectory optim"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "sensorless brushless DC motor control \n You've built or owned a robot control stack end-to-end, from design through implementation to hardware testing \n MS/PhD degree in EE, ME, CS, Robotics, or rela"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "hybrid VTOL transition control \n Experience with tethered or suspended payload dynamics \n Contributions to open-source flight stacks or robotics frameworks \n Published papers in controls, motion plan"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "tethered or suspended payload dynamics \n Contributions to open-source flight stacks or robotics frameworks \n Published papers in controls, motion planning, or aerial robotics \n Experience developing"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8304878,
+            "title": "Software Engineer, Reliability Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8304878",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years of experience",
+                    "following_text": "in an infrastructure, platform, or backend engineering role, showing you can deliver and maintain complex systems. \n \n Backend Development Skills: You\u2019re fluent in Go (or a similar language) and can"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8046909,
+            "title": "Software Engineer, Robotics Infrastructure - Autonomy & Robotics, DoorDash Air",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8046909",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "experience with",
+                    "following_text": "robotics middleware (ROS2, LCM, eCal, Apex.AI) \n You have experience with build systems and package managers (CMake, Bazel, Nix, Conan) \n You have experience with NVidia Jetson and JetPack \n You have"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "build systems and package managers (CMake, Bazel, Nix, Conan) \n You have experience with NVidia Jetson and JetPack \n You have experience with robotics logging and visualization (RViz, Foxglove, Rerun"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "NVidia Jetson and JetPack \n You have experience with robotics logging and visualization (RViz, Foxglove, Rerun, Plotly) \n You have strong C++ and Python skills, and you're comfortable with systems-le"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "robotics logging and visualization (RViz, Foxglove, Rerun, Plotly) \n You have strong C++ and Python skills, and you're comfortable with systems-level debugging \n You love diving into build system and"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "deterministic replay or time-travel debugging for robotics \n Familiarity with DO-178C or similar certification-aware development processes \n Experience with Nix for reproducible robotics builds \n You"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Nix for reproducible robotics builds \n You have informed opinions on process supervision (systemd vs custom vs supervisord) and can articulate the tradeoffs \n You've debugged DDS/middleware issues un"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8192190,
+            "title": "Software Engineer, Spark Platform",
+            "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192190",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of industry experience operating production distributed systems. \n Experience operating Apache Spark at scale on Amazon EMR, Databricks, or an in-house deployment \u2014 with a focus on platform operation"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "Python, Go, Scala, or Java; SQL fluency. \n A bias toward incremental rollout, measurement, and reducing toil. \n You are located or willing to relocate to the Bay Area, Seattle, or NYC. \n Compensation"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8024644,
+            "title": "Software Engineer, Storage",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8024644",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "2+ years",
+                    "following_text": "of fulltime working experience in designing, building and maintaining scalable, distributed data infrastructure. \n You are proficient in GoLang, or Java with a deeper expertise in multi-threading, di"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "designing, building and maintaining scalable, distributed data infrastructure. \n You are proficient in GoLang, or Java with a deeper expertise in multi-threading, distributed systems and databases."
+                },
+                {
+                    "match": "proficient",
+                    "following_text": "in GoLang, or Java with a deeper expertise in multi-threading, distributed systems and databases. \n You have deep expertise in NoSQL databases (Cassandra, DynamoDB, or similar) and distributed cachin"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8191134,
+            "title": "Software Engineer, Storage - Distributed Caching",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8191134",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "6+ years",
+                    "following_text": "of full-time experience designing, building, and operating distributed, stateful systems in production, at least 2 of which involved caching or key-value storage at meaningful scale. \n You are profic"
+                },
+                {
+                    "match": "proficient",
+                    "following_text": "in Go, or Java/Kotlin with deep expertise in concurrency, distributed systems, and production-grade backend services. \n You have hands-on experience with distributed caching technologies (Redis/Valke"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "distributed caching technologies (Redis/Valkey, Memcached, or similar) and understand their failure modes: replication lag, failover, hot keys, and cache invalidation. \n You understand distributed sy"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "ElastiCache, Memcached, or Valkey in production. \n Experience with KVRocks or RocksDB-family embedded storage engines (TiKV or similar), including compaction tuning and back-pressure handling. \n Expe"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "KVRocks or RocksDB-family embedded storage engines (TiKV or similar), including compaction tuning and back-pressure handling. \n Experience building or operating a distributed lock service. \n Experien"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Kubernetes and general cloud infrastructure operations. \n Contributions to open-source caching, storage, or distributed systems projects. \n Compensation \n The successful candidate\u2019s starting pay will"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8212984,
+            "title": "Software Engineer, Visualization Tools | DoorDash Labs ",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8212984",
+            "score": 5,
+            "seniority": "mid",
+            "experience_matches": [
+                {
+                    "match": "experience in",
+                    "following_text": "Robotics, self driving, scientific visualization, simulation \n High performance browser technologies (WebCodecs, Web Workers) \n 3D technologies (WebGL, three.js , Open3D) or game engines \n Distribu"
+                },
+                {
+                    "match": "5+ years of experience",
+                    "following_text": "in full stack software development \n Fluency with React and Typescript \n Experience in 3d computer graphics \n Comfortable independently identifying and solving problems with high levels of ambiguity"
+                },
+                {
+                    "match": "Experience in",
+                    "following_text": "3d computer graphics \n Comfortable independently identifying and solving problems with high levels of ambiguity \n Excel at working cross-functionally with stakeholders up and down the stack \n Applica"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8154315,
+            "title": "Staff Security Engineer, Proactive Security - AI",
+            "location": "United States - Remote",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8154315",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "10+ years of experience",
+                    "following_text": "as a Security Product Engineer at an Internet scale organization of demonstrated technical leadership building outcomes at global scale. \n Master\u2019s degree in Computer Science, Security Engineering, a"
+                },
+                {
+                    "match": "year",
+                    "following_text": "or one minute. \n We are customer-obsessed - Our mission is to grow and empower local economies. We are committed to our customers, merchants, and dashers and believe in connecting people with possibi"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8049133,
+            "title": "Staff Software Engineer, Event Streaming Systems",
+            "location": "New York, NY; Seattle, WA; San Francisco, CA; Sunnyvale, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8049133",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "years",
+                    "following_text": ". This is a senior individual-contributor role: you'll operate as a force multiplier across teams, owning the hardest architectural problems, driving org-wide technical strategy, and raising the engin"
+                },
+                {
+                    "match": "years",
+                    "following_text": "to come, on a platform that serves hundreds of engineering teams and trillions of events per day. \n You must be located in the New York Metro Area for this hybrid position. You will report to the Eng"
+                },
+                {
+                    "match": "year",
+                    "following_text": "technical vision and architecture for DoorDash's event streaming platform, and drive alignment in that direction across Storage, SRE, Data Platform, and Product Engineering. \n Lead the largest and mo"
+                },
+                {
+                    "match": "8+ years",
+                    "following_text": "of hands-on experience designing, building, and operating large-scale distributed systems in production, with a track record of technical leadership across multiple teams or an organization. \n You ha"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "the internals of object-store-backed or diskless streaming architectures such as WarpStream or AutoMQ, or with tiered storage in Kafka. \n Contributions to Kafka or related open-source distributed sys"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "broker and JVM tuning, partition management, or Cruise Control at large scale. \n Experience designing multi-region streaming platforms and reasoning about their consistency, durability, and cost trad"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8084453,
+            "title": "Staff Software Engineering, Backend (All Teams)",
+            "location": "San Francisco, CA; New York, NY;  Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8084453",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "8+ years",
+                    "following_text": "of industry experience \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, generating code, testing, monitoring"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "service oriented architecture, writing REST API\u2019s, unit testing, and architectural design \n Understanding of modern web stacks and architecture (HTTP, REST) \n Experience with SQL and NoSQL databases"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "SQL and NoSQL databases and other technologies (e.g. Postgres, Redis, Elasticsearch, RabbitMQ) \n \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below a"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8092262,
+            "title": "Staff Software Engineer, Machine Learning",
+            "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8092262",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "experience with",
+                    "following_text": "solving end-user problems who enjoys collaborating with multi-disciplinary teams. \n This role is hybrid with some in-office time expected and will report to an Engineering Manager. \n You're excited a"
+                },
+                {
+                    "match": "8+ years",
+                    "following_text": "ML industry experience with a solid understanding of machine learning algorithms and fundamentals. \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software devel"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "a solid understanding of machine learning algorithms and fundamentals. \n Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "building machine learning systems in production by using frameworks such as PyTorch, Keras, LightGBM, scikit-learn, Spark ML, or related. \n Compensation \n The successful candidate\u2019s starting pay will"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8207891,
+            "title": "Staff Software Engineer, Storage - Taulu",
+            "location": "New York, NY; Bay Area, CA; Seattle, WA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8207891",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "10+ years",
+                    "following_text": "building large-scale distributed systems, with deep expertise in at least one Tier 0 storage / data-plane system (distributed KV, database internals, caching, or a storage proxy/control plane). \n Exp"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "storage abstraction layers or data-access gateways that decouple applications from the underlying databases \u2014 e.g., data-gateway or key-value / time-series data-abstraction platforms, or comparable i"
+                },
+                {
+                    "match": "experience in",
+                    "following_text": "production distributed systems. \n Deep, hands-on grasp of storage internals: MVCC, GC/compaction, consistency models, replication, and/or CDC. \n Proven ownership of Tier 0 / mission-critical services"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8333742,
+            "title": "Staff Software Engineer, Traffic",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8333742",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "8+ years of experience",
+                    "following_text": "as a software engineer in infrastructure, networking, or platform engineering. \n Experience with Programming Languages like Go, C++, Python or Rust \n Experience with AWS and Kubernetes \n Background w"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Programming Languages like Go, C++, Python or Rust \n Experience with AWS and Kubernetes \n Background working on and debugging high-QPS or latency-sensitive systems \n You are curious, independent, amb"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "AWS and Kubernetes \n Background working on and debugging high-QPS or latency-sensitive systems \n You are curious, independent, ambitious, and can find solutions and make progress in an ambiguous and"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "service mesh technologies such as Envoy, Istio or Linkerd \n Familiarity with xDS or control plane architectures \n Solid understanding of networking fundamentals like TCP/IP, HTTP, HTTP/2, gRPC, Load"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "AWS Networking Primitives like Load Balancers, Privatelink, etc. \n Experience with Infrastructure as Code tooling like Terraform \n Experience with Gitops delivery tooling such as ArgoCD, Helm, Atlant"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Infrastructure as Code tooling like Terraform \n Experience with Gitops delivery tooling such as ArgoCD, Helm, Atlantis. \n Compensation \n The successful candidate\u2019s starting pay will fall within the p"
+                },
+                {
+                    "match": "Experience with",
+                    "following_text": "Gitops delivery tooling such as ArgoCD, Helm, Atlantis. \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range listed below and is determined based on job-related fac"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        },
+        {
+            "id": 8008523,
+            "title": "Staff Software Technical Program Manager - Autonomy & Robotics",
+            "location": "San Francisco, CA",
+            "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8008523",
+            "score": 5,
+            "seniority": "senior",
+            "experience_matches": [
+                {
+                    "match": "8+ years",
+                    "following_text": "of industry experience working in engineering and/or program management \n In-depth experience with the software development life cycle \n Demonstrated success taking software products or features from"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "the software development life cycle \n Demonstrated success taking software products or features from concept to production \n A track record of managing complex, cross-functional programs with signifi"
+                },
+                {
+                    "match": "experience with",
+                    "following_text": "program management tools, such as \n Jira \n Confluence \n Smartsheet/MS Project \n Google Workspace applications \n \n Compensation \n The successful candidate\u2019s starting pay will fall within the pay range"
+                },
+                {
+                    "match": "year",
+                    "following_text": ". \n For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick"
+                }
+            ]
+        }
+    ]
+}
