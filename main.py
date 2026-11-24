@@ -4,6 +4,26 @@ import json
 from html import unescape
 from html.parser import HTMLParser
 
+company_token = "doordashusa"  # The slug from boards.greenhouse.io/{company_token}
+url = f"https://boards-api.greenhouse.io/v1/boards/{company_token}/jobs"
+
+response = requests.get(url).json()
+
+# lexicon patterns commonly used in listings 
+
+# Filter jobs by software keywords 
+software_pattern = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
+# reward jobs that lean twoards engineering (not filtering out all jobs)
+engineer_pattern = r"\b(engineer|engineering|technical)"
+# senior word patterns  
+senior_pattern = r"\b(staff|principal|director)"
+
+description_patterns = r"\b(As an|work on|own problems|looking for)"
+
+experience_patterns = (
+    r"\b(?:\d+(?:\+|[-–]\d+)?\s+)?"
+    r"(?:years of experience|years|year|proficient)\b"
+)
 
 class DescriptionParser(HTMLParser):
     block_tags = {"p", "div", "li", "h1", "h2", "h3", "h4"}
@@ -37,7 +57,7 @@ def html_to_text(content):
 
 def print_match_excerpts(label, pattern, text, limit=3, chars_after=200):
     matches = list(re.finditer(pattern, text, re.IGNORECASE))
-
+    print(len(matches))
     if not matches:
         print(f"{label}: no matches")
         return
@@ -51,26 +71,7 @@ def print_match_excerpts(label, pattern, text, limit=3, chars_after=200):
         print(f"{label}: {additional} additional match(es) found after the first {limit}.")
 
 
-company_token = "stripe"  # The slug from boards.greenhouse.io/{company_token}
-url = f"https://boards-api.greenhouse.io/v1/boards/{company_token}/jobs"
 
-response = requests.get(url).json()
-
-# lexicon patterns commonly used in listings 
-
-# Filter jobs by software keywords 
-software_pattern = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
-# reward jobs that lean twoards engineering (not filtering out all jobs)
-engineer_pattern = r"\b(engineer|engineering|technical)"
-# senior word patterns  
-senior_pattern = r"\b(staff|principal|director)"
-
-description_patterns = r"\b(As an|work on|own problems)"
-
-experience_patterns = (
-    r"\b(?:\d+(?:\+|[-–]\d+)?\s+)?"
-    r"(?:years of experience|years|year|proficient)\b"
-)
 
 matching_jobs = []
 

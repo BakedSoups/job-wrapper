@@ -1,5 +1,5 @@
 {
-    "absolute_url": "https://stripe.com/jobs/search?gh_jid=8301253",
+    "absolute_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8208005",
     "data_compliance": [
         {
             "type": "gdpr",
@@ -10,151 +10,183 @@
             "demographic_data_consent_applies": false
         }
     ],
-    "education": "education_required",
-    "internal_job_id": 3589303,
+    "education": "education_optional",
+    "internal_job_id": 3552474,
     "location": {
-        "name": "San Francisco, Seattle, New York"
+        "name": "Bay Area, CA; Seattle, WA; Los Angeles, CA; New York, NY"
     },
-    "metadata": null,
-    "id": 8301253,
-    "updated_at": "2026-11-19T12:12:29-05:00",
-    "requisition_id": "See Opening ID",
-    "title": "Backend / API Engineer, Radar",
-    "company_name": "Stripe",
-    "first_published": "2026-10-19T15:15:39-04:00",
+    "metadata": [
+        {
+            "id": 875125,
+            "name": "Availability Date",
+            "value": "2026-09-16",
+            "value_type": "date"
+        },
+        {
+            "id": 875200,
+            "name": "Earliest Hire Date",
+            "value": "2026-09-16",
+            "value_type": "date"
+        },
+        {
+            "id": 170345,
+            "name": "Business Line",
+            "value": "Marketplace",
+            "value_type": "single_select"
+        },
+        {
+            "id": 170346,
+            "name": "Market",
+            "value": "Corporate",
+            "value_type": "single_select"
+        },
+        {
+            "id": 172948,
+            "name": "Entity",
+            "value": "DoorDash, Inc.",
+            "value_type": "single_select"
+        },
+        {
+            "id": 174556,
+            "name": "Job Family",
+            "value": "Software Engineering",
+            "value_type": "single_select"
+        },
+        {
+            "id": 1495483,
+            "name": "Engineering Discipline",
+            "value": [],
+            "value_type": "multi_select"
+        },
+        {
+            "id": 172717,
+            "name": "Job Location",
+            "value": "RE, USA, CA, SAN FRANCISCO",
+            "value_type": "single_select"
+        },
+        {
+            "id": 875215,
+            "name": "Time Type",
+            "value": "Full time",
+            "value_type": "single_select"
+        },
+        {
+            "id": 923113,
+            "name": "Hiring Manager with Job Title",
+            "value": "Harry Li - Engineering Manager",
+            "value_type": "single_select"
+        },
+        {
+            "id": 172248,
+            "name": "Careers Page Sorting: Department",
+            "value": "Engineering",
+            "value_type": "single_select"
+        },
+        {
+            "id": 32781020,
+            "name": "US1 - Base Salary Band Midpoint",
+            "value": {
+                "unit": "USD",
+                "amount": "235000.0"
+            },
+            "value_type": "currency"
+        },
+        {
+            "id": 32794284,
+            "name": "US4 - Base Salary Band Minimum",
+            "value": {
+                "unit": "USD",
+                "amount": "159800.0"
+            },
+            "value_type": "currency"
+        },
+        {
+            "id": 32794304,
+            "name": "US1 - Equity Band Midpoint",
+            "value": {
+                "unit": null,
+                "amount": "0.0"
+            },
+            "value_type": "currency"
+        },
+        {
+            "id": 32796921,
+            "name": "USA: Pay Transparency Range",
+            "value": {
+                "unit": "USD",
+                "max_value": "235000.0",
+                "min_value": "159800.0"
+            },
+            "value_type": "currency_range"
+        },
+        {
+            "id": 33181307,
+            "name": "Canada: Pay Transparency Range",
+            "value": {
+                "unit": "CAD",
+                "max_value": "187000.0",
+                "min_value": "149500.0"
+            },
+            "value_type": "currency_range"
+        },
+        {
+            "id": 40636812,
+            "name": "Umbrella Corp:",
+            "value": "DoorDash",
+            "value_type": "single_select"
+        },
+        {
+            "id": 40689956,
+            "name": "Wolt: Careers Site Department",
+            "value": null,
+            "value_type": "single_select"
+        },
+        {
+            "id": 50331873,
+            "name": "Business Title",
+            "value": null,
+            "value_type": "short_text"
+        },
+        {
+            "id": 54550527,
+            "name": "Fountain HVH",
+            "value": false,
+            "value_type": "yes_no"
+        },
+        {
+            "id": 54550663,
+            "name": "Fountain Opening ID",
+            "value": null,
+            "value_type": "short_text"
+        }
+    ],
+    "id": 8208005,
+    "updated_at": "2026-11-06T12:24:02-05:00",
+    "requisition_id": "2026.08089",
+    "title": "Senior Software Engineer, Build Systems & CI",
+    "company_name": "DoorDash USA",
+    "first_published": "2026-09-16T11:30:08-04:00",
     "language": "en",
     "application_deadline": null,
-    "content": "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Radar helps businesses prevent payments fraud and abuse while enabling legitimate customers to transact with confidence. We combine machine learning and AI with the intelligence of Stripe\u2019s global network to make sophisticated fraud prevention accessible to businesses of all sizes.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Our work spans payments fraud detection, protection against abuse beyond the payment, enterprise APIs that bring Radar\u2019s capabilities into businesses\u2019 own systems and payment flows, and the platform that powers it all. We build everything from reliable, low-latency infrastructure to intuitive tools that help users understand threats and control how they respond.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Fraud evolves constantly, and so do we. We work directly with users to understand emerging attacks, turn advances in ML and AI into effective defenses, and build products that protect and grow their revenue.&lt;/p&gt;\n&lt;h2&gt;What you\u2019ll do&lt;/h2&gt;\n&lt;p&gt;As a software engineer on Radar, you\u2019ll build products and infrastructure that help businesses understand and stop fraud and abuse. Your work will span backend services, enterprise APIs, and user experiences that put sophisticated prevention capabilities into our customers\u2019 hands.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You\u2019ll own problems from investigation through launch, partnering with&amp;nbsp; product managers, designers, and data scientists. You\u2019ll have opportunities to scale systems that make real-time decisions across Stripe\u2019s global payments network, bring advances in ML and AI into production, and build new products from scratch. Every improvement can have a direct impact on the revenue our users retain and the legitimate customers they serve.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and operate reliable, low-latency services that detect and prevent fraud and abuse at scale&lt;/li&gt;\n&lt;li&gt;Design APIs and dashboard experiences that help businesses investigate threats, configure defenses, and understand how Radar protects them&lt;/li&gt;\n&lt;li&gt;Develop the shared platform and infrastructure that enable teams to build and launch new Radar capabilities&lt;/li&gt;\n&lt;li&gt;Work directly with users to understand emerging threats and turn those insights into broadly useful products&lt;/li&gt;\n&lt;li&gt;Partner with ML engineers and data scientists to bring new signals, models, and AI capabilities into production&lt;/li&gt;\n&lt;li&gt;Own projects end to end, from technical design and implementation through rollout, measurement, and iteration&lt;/li&gt;\n&lt;li&gt;Uphold a high bar for engineering quality, reliability, and product craft while moving quickly as threats evolve&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Who you are&lt;/h2&gt;\n&lt;p&gt;We\u2019re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Minimum requirements&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;2+ years of industry software engineering experience&lt;/li&gt;\n&lt;li&gt;Strong coding skills in any programming language, with experience building and maintaining production software&lt;/li&gt;\n&lt;li&gt;Ability to work across systems and technologies, learn unfamiliar codebases, and make thoughtful technical trade-offs&lt;/li&gt;\n&lt;li&gt;A rigorous approach to problem solving, including using data to investigate issues and evaluate whether a solution works&lt;/li&gt;\n&lt;li&gt;Strong collaboration and communication skills, with the ability to work across disciplines and contribute to your peers\u2019 success&lt;/li&gt;\n&lt;li&gt;An ownership mindset and comfort navigating ambiguity, taking initiative, and following through on user problems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience building distributed systems or real-time services with demanding reliability and latency requirements&lt;/li&gt;\n&lt;li&gt;Experience building APIs, developer platforms, or intuitive user interfaces for complex workflows&lt;/li&gt;\n&lt;li&gt;Experience bringing ML or AI capabilities into production software&lt;/li&gt;\n&lt;li&gt;Experience working on fraud prevention, abuse prevention, risk, or security&lt;/li&gt;\n&lt;li&gt;Experience taking a product from an early idea to launch and iterating directly with customers&lt;/li&gt;\n&lt;/ul&gt;",
+    "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;img style=&quot;display: none; max-width: 100%;&quot; src=&quot;https://click.appcast.io/greenhouse-te8/a31.png?ent=34&amp;amp;e=22630&amp;amp;t=1701374353806&quot; width=&quot;1px&quot;&gt; &lt;img style=&quot;display: none; max-width: 100%;&quot; src=&quot;https://track.jobadx.com/v1/i.gif?utm_pixel=224e990b-8ff4-4287-8d5d-2ff09647f181&amp;amp;utm_ptz=EST&amp;amp;utm_rqt=track&quot; alt=&quot;&quot; width=&quot;1&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the Team&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;The Code Scalability team owns build systems and continuous integration across DoorDash. When a shared dependency changes or more teams contribute to a monorepo, the cost of building software can grow for everyone. We tackle that challenge with Bazel, Buildkite, and infrastructure that keeps everyday development efficient. Our work gives teams a dependable path from a code change to a completed build, with fewer delays and less infrastructure troubleshooting.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As a Senior Software Engineer on Code Scalability, you will solve the engineering problems behind building software at DoorDash\u2019s scale. A change deep in a monorepo can trigger work across many projects; your job is to make that work efficient, predictable, and easy to investigate when something goes wrong. Projects span Bazel configuration and tooling, Buildkite orchestration, build execution and caching, and the services that support them. You will identify where improvements matter most, make the technical decisions, and work with teams across DoorDash to put those changes into practice.&lt;/p&gt;\n&lt;p&gt;The impact of this role extends to every team that depends on our platform. Shorter queues give engineers more time to iterate, dependable pipelines prevent interruptions, and useful diagnostics help them get back to their work. You will measure progress through those outcomes, alongside the cost and maintainability of the infrastructure you own.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;You\u2019re excited about this opportunity because you will\u2026&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Evolve build and CI workflows for large monorepos, keeping feedback fast and changes manageable as dependencies, code volume, and the number of contributing teams grow.&lt;/li&gt;\n&lt;li&gt;Develop Bazel rules, toolchains, and integrations that keep builds reproducible and make shared build infrastructure easier for teams to adopt across large monorepos.&lt;/li&gt;\n&lt;li&gt;Improve Buildkite pipeline throughput and reliability by reducing queue times, addressing build bottlenecks, and making better use of CI compute capacity.&lt;/li&gt;\n&lt;li&gt;Reduce redundant build work through dependency analysis, incremental builds, caching, and parallel execution, balancing developer feedback speed with infrastructure cost.&lt;/li&gt;\n&lt;li&gt;Build developer tools that explain build failures and help engineers reproduce CI behavior locally, making troubleshooting faster and reducing support overhead.&lt;/li&gt;\n&lt;li&gt;Rethink what a build and CI platform can do with AI: move beyond reporting failures toward intelligent diagnosis, PR triage, automated recovery, and guidance that helps developers move forward.&lt;/li&gt;\n&lt;li&gt;Instrument and operate build and CI infrastructure. Use metrics and developer feedback to track latency, reliability, and resource usage, then address recurring infrastructure problems.&lt;/li&gt;\n&lt;li&gt;Lead platform improvements from design through rollout, partner with engineering teams on migrations, and mentor teammates through technical decisions and code reviews.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;We\u2019re excited about you because\u2026&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;You have 5+ years of software engineering experience building and operating production systems.&lt;/li&gt;\n&lt;li&gt;You\u2019re interested in improving developer productivity and applying your engineering skills to build systems and CI. Experience with build or CI systems at scale, including work with Bazel, Buildkite, or large monorepos, is a plus but not required.&lt;/li&gt;\n&lt;li&gt;You write maintainable production software in a language such as Go, Java, Kotlin, or Python, and bring strong debugging and software design skills.&lt;/li&gt;\n&lt;li&gt;You have led technical projects across teams, made practical design tradeoffs, and carried changes through rollout and operational ownership.&lt;/li&gt;\n&lt;li&gt;You approach internal platforms as products: you listen to developers, make workflows easier to adopt, and judge success by the problems you solve for them.&lt;/li&gt;\n&lt;li&gt;You can investigate performance and reliability problems across multiple components, use evidence to find the cause, and choose solutions that stay understandable as the system grows.&lt;/li&gt;\n&lt;li&gt;You improve how a team works through mentorship, clear communication, and automation that removes repetitive work.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;The successful candidate\u2019s starting pay will fall within the pay range listed below and is determined based on job-related factors including, but not limited to, skills, experience, qualifications, work location, and market conditions. Base salary is localized according to an employee\u2019s work location. Ranges are market-dependent and may be modified in the future.&lt;/p&gt;\n&lt;p&gt;In addition to base salary, the compensation for this role includes opportunities for equity grants. Talk to your recruiter for more information.&lt;/p&gt;\n&lt;p&gt;DoorDash cares about you and your overall well-being. That\u2019s why we offer a comprehensive benefits package to all regular employees, which includes a 401(k) plan with employer matching, 16 weeks of paid parental leave, wellness benefits, commuter benefits match, paid time off and paid sick leave in compliance with applicable laws (e.g. Colorado Healthy Families and Workplaces Act). DoorDash also offers medical, dental, and vision benefits, 11 paid holidays, disability and basic life insurance, family-forming assistance, and a mental health program, among others.&lt;/p&gt;\n&lt;p&gt;To learn more about our benefits, visit our careers page &lt;a href=&quot;https://careers.doordash.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;See below for paid time off details:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;For salaried roles:&lt;/strong&gt; flexible paid time off/vacation, plus 80 hours of paid sick time per year.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;For hourly roles:&lt;/strong&gt; vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick time accrued at 1 hour for every 30 hours worked (e.g. about 5.8 hours/month if working 40 hours/week; about 2.9 hours/month if working 20 hours/week).&lt;/li&gt;\n&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The national base pay range for this position within the United States, including Illinois and Colorado.&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$159,800&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$235,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;About DoorDash&lt;/h2&gt;\n&lt;p&gt;At DoorDash, our mission to empower local economies shapes how our team members move quickly, learn, and reiterate in order to make impactful decisions that display empathy for our range of users\u2014from Dashers to merchant partners to consumers. We are a technology and logistics company that started by enabling door-to-door delivery, and we are looking for team members who can help us go from a company that is known as the place you order food to a company that people turn to for any and all goods.&lt;br&gt;&lt;br&gt;DoorDash is growing rapidly and changing constantly, which gives our team members the opportunity to share their unique perspectives, solve new challenges, and own their careers. We&#39;re committed to supporting employees\u2019 happiness, healthiness, and overall well-being by providing comprehensive benefits and perks including premium healthcare, wellness expense reimbursement, paid parental leave and more.&lt;/p&gt;\n&lt;h2&gt;Our Commitment to Diversity and Inclusion&lt;/h2&gt;\n&lt;p&gt;We\u2019re committed to growing and empowering a more inclusive community within our company, industry, and cities. That\u2019s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.&lt;/p&gt;\n&lt;p&gt;Statement of Non-Discrimination: In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on: race, color, ancestry, national origin, religion, age, gender, marital/domestic partner status, sexual orientation, gender identity or expression, disability status, or veteran status. Above and beyond discrimination and harassment based on \u201cprotected categories,\u201d we also strive to prevent other subtler forms of inappropriate behavior (i.e., stereotyping) from ever gaining a foothold in our office. Whether blatant or hidden, barriers to success have no place at DoorDash. We value a diverse workforce \u2013 people who identify as women, non-binary or gender non-conforming, LGBTQIA+, American Indian or Native Alaskan, Black or African American, Hispanic or Latinx, Native Hawaiian or Other Pacific Islander, differently-abled, caretakers and parents, and veterans are strongly encouraged to apply. Thank you to the Level Playing Field Institute for this statement of non-discrimination.&lt;/p&gt;\n&lt;p&gt;Pursuant to the San Francisco Fair Chance Ordinance, Los Angeles Fair Chance Initiative for Hiring Ordinance, and any other state or local hiring regulations, we will consider for employment any qualified applicant, including those with arrest and conviction records, in a manner consistent with the applicable regulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;If you need any accommodations, please inform your recruiting contact upon initial connection.&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Notice Regarding Use of AI and Automated Tools: &lt;/strong&gt;To streamline our hiring process, DoorDash utilizes an automated recruitment tool called Metaview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;How it works:&amp;nbsp;&lt;/strong&gt;Metaview assists our recruiting team by evaluating job related qualifications and characteristics in connection with hiring. The tool is designed and used to support - rather than replace - human decision-making; trained personnel make final decisions with meaningful human review and oversight, and DoorDash does not use Metaview or other AI-enabled tool&amp;nbsp; in a manner that has the effect of subjecting applicants or employees to discrimination based on any protected characteristic or proxy or for engaging in any protected activity under applicable law.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1&quot;&gt;&lt;strong&gt;Data Retention, Privacy &amp;amp; Bias Audit:&lt;/strong&gt; Data collected during this process is retained in accordance with our Candidate Privacy Policy &lt;a href=&quot;https://help.doordash.com/en-us/legal/article/ax-privacy-notice&quot;&gt;https://help.doordash.com/en-us/legal/article/ax-privacy-notice&lt;/a&gt; and applicable state laws. In compliance with New York City Local Law 144, the independent bias audit summary for Metaview is publicly available for review at &lt;a href=&quot;https://trust.warden-ai.com/metaview/application-review&quot;&gt;https://trust.warden-ai.com/metaview/application-review&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;",
     "departments": [
         {
-            "id": 78991,
-            "name": "8525 Radar - Eng",
+            "id": 63855,
+            "name": "313 Infrastructure Engineering",
             "child_ids": [],
-            "parent_id": 340726
+            "parent_id": 2438
         }
     ],
     "offices": [
         {
-            "id": 65234,
-            "name": "US",
+            "id": 308574,
+            "name": "San Francisco, CA",
             "location": null,
-            "child_ids": [
-                89623,
-                249942,
-                249943,
-                230657,
-                433358,
-                61413,
-                80440,
-                344486,
-                83778,
-                61414,
-                83767,
-                83768,
-                83776,
-                83769,
-                83770,
-                83771,
-                83772,
-                83773,
-                83774,
-                89624,
-                83789,
-                83775,
-                83777,
-                83779,
-                83780,
-                83820,
-                83781,
-                83782,
-                83783,
-                83784,
-                83785,
-                83786,
-                83787,
-                83821,
-                83788,
-                83790,
-                83791,
-                83792,
-                83793,
-                83794,
-                83854,
-                83861,
-                83795,
-                83796,
-                83797,
-                83831,
-                83798,
-                83799,
-                83856,
-                83800,
-                83801,
-                83819,
-                83802,
-                83850,
-                83803,
-                83804,
-                83805,
-                83806,
-                83807,
-                83808,
-                83809,
-                83810,
-                83811,
-                83812,
-                83813,
-                83815,
-                83817,
-                83822,
-                83824,
-                83846,
-                83825,
-                83829,
-                83830,
-                65238,
-                83834,
-                83849,
-                83859,
-                83835,
-                83836,
-                83837,
-                83839,
-                83840,
-                83841,
-                83842,
-                83843,
-                83844,
-                83847,
-                83848,
-                83851,
-                83852,
-                83853,
-                83855,
-                83857,
-                83858,
-                83860,
-                83862,
-                83814,
-                83818,
-                83823,
-                83826,
-                83827,
-                83828,
-                83832,
-                83833,
-                83816,
-                85342,
-                83838,
-                83845,
-                223073,
-                265365,
-                16654
-            ],
-            "parent_id": 673
+            "child_ids": [],
+            "parent_id": 79324
         }
     ],
     "ai_disclaimer": null,
-    "include_ai_disclaimer": false,
-    "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8301253/ai_opt_out"
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
 }
