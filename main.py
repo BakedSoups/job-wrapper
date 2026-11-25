@@ -4,8 +4,8 @@ from greenhouse_api import get_job, get_jobs
 from html_parser import html_to_text
 from job_analysis import (
     build_seniority_summary,
-    classify_seniority,
     get_experience_matches,
+    get_seniority_assessment,
     is_software_job,
     score_job,
 )
@@ -16,8 +16,10 @@ COMPANY_TOKEN = "doordashusa"
 
 def analyze_jobs(company_token):
     analyzed_jobs = []
+    jobs = get_jobs(company_token)
+    job_titles = [job["title"] for job in jobs]
 
-    for job in get_jobs(company_token):
+    for job in jobs:
         job["score"] = score_job(job["title"])
 
         if not is_software_job(job["title"]):
@@ -25,6 +27,9 @@ def analyze_jobs(company_token):
 
         data = get_job(company_token, job["id"])
         description = html_to_text(data.get("content", ""))
+        seniority = get_seniority_assessment(
+            job["title"], description, job_titles
+        )
 
         analyzed_jobs.append({
             "id": job["id"],
@@ -32,7 +37,7 @@ def analyze_jobs(company_token):
             "location": job["location"]["name"],
             "url": job["absolute_url"],
             "score": job["score"],
-            "seniority": classify_seniority(job["title"]),
+            "seniority": seniority,
             "experience_matches": get_experience_matches(description),
         })
 

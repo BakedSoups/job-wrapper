@@ -3,22 +3,22 @@
     "total_matching_jobs": 47,
     "seniority_frequency": {
         "junior": {
-            "count": 3,
-            "frequency": 0.0638
+            "count": 11,
+            "frequency": 0.234
         },
         "mid": {
-            "count": 24,
-            "frequency": 0.5106
+            "count": 19,
+            "frequency": 0.4043
         },
         "senior": {
-            "count": 20,
-            "frequency": 0.4255
+            "count": 17,
+            "frequency": 0.3617
         }
     },
     "senior_to_junior_likelihood": {
-        "senior_probability": 0.4255,
-        "junior_probability": 0.0638,
-        "senior_to_junior_ratio": 6.6667
+        "senior_probability": 0.3617,
+        "junior_probability": 0.234,
+        "senior_to_junior_ratio": 1.5455
     },
     "jobs": [
         {
@@ -27,7 +27,13 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7848317",
             "score": -5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "operations",
+                "title_evidence": [],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "year",
@@ -45,7 +51,21 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7658934",
             "score": -5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "operations",
+                "title_evidence": [
+                    "manager",
+                    "associate"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years of experience",
@@ -63,7 +83,21 @@
             "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Seattle, WA; Washington, DC; Chicago, IL; Tempe, AZ",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8350225",
             "score": -5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "operations",
+                "title_evidence": [
+                    "manager",
+                    "associate"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "6+ years",
+                        "minimum_years": 6
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "6+ years of experience",
@@ -81,7 +115,18 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8122134",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "4+ years",
+                        "minimum_years": 4
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "4+ years",
@@ -111,7 +156,15 @@
             "location": "San Francisco, CA; Sunnyvale, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8105894",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 4,
+                "job_family": "data",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "Experience with",
@@ -129,7 +182,18 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6682078",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -163,7 +227,21 @@
             "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington, DC.",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8226916",
             "score": -5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "mid",
+                "score": -1,
+                "job_family": "operations",
+                "title_evidence": [
+                    "senior",
+                    "associate"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "2-4 years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2-4 years of experience",
@@ -189,7 +267,20 @@
             "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8136498",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -215,7 +306,20 @@
             "location": "Bay Area, CA; Seattle, WA; Los Angeles, CA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8208005",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -237,7 +341,32 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8193584",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    },
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    },
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    },
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -267,7 +396,20 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8350965",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -285,7 +427,20 @@
             "location": "San Francisco, CA ; Sunnyvale, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8139094",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -303,7 +458,20 @@
             "location": "San Francisco, CA; New York, NY; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8143205",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years of experience",
@@ -325,7 +493,20 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8384127",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "6+ years",
+                        "minimum_years": 6
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "6+ years",
@@ -351,7 +532,15 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7763162",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 3,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "experience in",
@@ -369,7 +558,20 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8193574",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 5,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "senior"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "6+ years",
+                        "minimum_years": 6
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "years",
@@ -411,7 +613,18 @@
             "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8138486",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -437,7 +650,18 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6599474",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "6+ years",
+                        "minimum_years": 6
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "6+ years",
@@ -483,7 +707,18 @@
             "location": "New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8180903",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years of experience",
@@ -525,7 +760,13 @@
             "location": "San Francisco, CA; Seattle, WA; New York, NY; Los Angeles, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8202736",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "year",
@@ -539,7 +780,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192187",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "3+ years",
@@ -569,7 +821,26 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192116",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    },
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    },
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "3+ years",
@@ -595,7 +866,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8191886",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -621,7 +903,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8197854",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -639,7 +932,18 @@
             "location": "San Francisco, CA; New York, NY; Los Angeles, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8207877",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2 years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2 years of experience",
@@ -661,7 +965,13 @@
             "location": "Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8163709",
             "score": 5,
-            "seniority": "junior",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "years",
@@ -679,7 +989,18 @@
             "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8161616",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -697,7 +1018,20 @@
             "location": " San Francisco, CA; Sunnyvale, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263774",
             "score": 5,
-            "seniority": "junior",
+            "seniority": {
+                "label": "junior",
+                "score": -6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "intern"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "2 years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2 years",
@@ -727,7 +1061,20 @@
             "location": "New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041",
             "score": 5,
-            "seniority": "junior",
+            "seniority": {
+                "label": "junior",
+                "score": -6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "intern"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "2 years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2 years",
@@ -757,7 +1104,18 @@
             "location": "Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8141072",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "5+ years",
@@ -775,7 +1133,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8264542",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "3+ years",
+                        "minimum_years": 3
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "3+ years",
@@ -821,7 +1190,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8283735",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -859,7 +1239,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; \u2022 Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263726",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -881,7 +1272,13 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8046982",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "experience with",
@@ -911,7 +1308,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8304878",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years of experience",
@@ -929,7 +1337,13 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8046909",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 0,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": []
+            },
             "experience_matches": [
                 {
                     "match": "experience with",
@@ -967,7 +1381,18 @@
             "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York City, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8192190",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -989,7 +1414,18 @@
             "location": "San Francisco, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8024644",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "junior",
+                "score": -2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "2+ years",
+                        "minimum_years": 2
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "2+ years",
@@ -1015,7 +1451,18 @@
             "location": "San Francisco, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8191134",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "6+ years",
+                        "minimum_years": 6
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "6+ years",
@@ -1053,7 +1500,18 @@
             "location": "San Francisco, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8212984",
             "score": 5,
-            "seniority": "mid",
+            "seniority": {
+                "label": "mid",
+                "score": 2,
+                "job_family": "software_engineering",
+                "title_evidence": [],
+                "yoe_evidence": [
+                    {
+                        "match": "5+ years",
+                        "minimum_years": 5
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "experience in",
@@ -1079,7 +1537,20 @@
             "location": "United States - Remote",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8154315",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "10+ years",
+                        "minimum_years": 10
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "10+ years of experience",
@@ -1101,7 +1572,20 @@
             "location": "New York, NY; Seattle, WA; San Francisco, CA; Sunnyvale, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8049133",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "8+ years",
+                        "minimum_years": 8
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "years",
@@ -1139,7 +1623,20 @@
             "location": "San Francisco, CA; New York, NY;  Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8084453",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "8+ years",
+                        "minimum_years": 8
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "8+ years",
@@ -1165,7 +1662,20 @@
             "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8092262",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "8+ years",
+                        "minimum_years": 8
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "experience with",
@@ -1195,7 +1705,20 @@
             "location": "New York, NY; Bay Area, CA; Seattle, WA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8207891",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "10+ years",
+                        "minimum_years": 10
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "10+ years",
@@ -1221,7 +1744,20 @@
             "location": "San Francisco, CA; Seattle, WA; New York, NY",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8333742",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 6,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "8+ years",
+                        "minimum_years": 8
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "8+ years of experience",
@@ -1263,7 +1799,21 @@
             "location": "San Francisco, CA",
             "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8008523",
             "score": 5,
-            "seniority": "senior",
+            "seniority": {
+                "label": "senior",
+                "score": 8,
+                "job_family": "software_engineering",
+                "title_evidence": [
+                    "staff",
+                    "manager"
+                ],
+                "yoe_evidence": [
+                    {
+                        "match": "8+ years",
+                        "minimum_years": 8
+                    }
+                ]
+            },
             "experience_matches": [
                 {
                     "match": "8+ years",
