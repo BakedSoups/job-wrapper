@@ -1,9 +1,17 @@
+import json
+import os
 import re
 from collections import Counter, defaultdict
+from functools import lru_cache
 
 
 SOFTWARE_PATTERN = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
 ENGINEER_PATTERN = r"\b(engineer|engineering|technical)"
+LOCATION_ALIASES = {
+    "san_diego": ("sd", "san diego"),
+    "san_francisco": ("sf", "san francisco"),
+    "sunnyvale": ("sunnyvale",),
+}
 EXPERIENCE_PATTERNS = (
     r"\b(?:\d+(?:\+|[-–]\d+)?\s+)?"
     r"(?:years of experience|years|year|experience with|experience in|proficient)\b"
@@ -31,27 +39,44 @@ SENIORITY_TITLE_SCORES = {
     "director": 5,
     "manager": 2,
     "head": 5,
-    "vp": 6,
-    "chief": 6,
+    "vp": 12,
+    "chief": 12,
     "distinguished": 5,
     "junior": -3,
     "jr": -3,
     "entry level": -3,
-    "new grad": -3,
+    "new grad": -5,
     "associate": -2,
-    "intern": -4,
+    "intern": -8,
     "apprentice": -3,
 }
 
+KEYWORDS_FILE = os.path.join(os.path.dirname(__file__), "keywords.json")
+
 
 def score_job(title):
+    if re.search(SOFTWARE_PATTERN, title, re.IGNORECASE):
+        return 30
     if re.search(ENGINEER_PATTERN, title, re.IGNORECASE):
-        return 5
+        return 15
     return -5
 
 
-def is_software_job(title):
-    return re.search(SOFTWARE_PATTERN, title, re.IGNORECASE) is not None
+def location_pattern(keyword):
+    """Return the regex for a configured location or one of its aliases."""
+    normalized_keyword = keyword.strip().lower()
+
+    for aliases in LOCATION_ALIASES.values():
+        if normalized_keyword in aliases:
+            return rf"\b(?:{'|'.join(map(re.escape, aliases))})\b"
+
+    raise ValueError(f"Unknown location keyword: {keyword}")
+
+
+def matches_location(location, keyword):
+    """Return whether a job location matches a configured location keyword."""
+    return re.search(location_pattern(keyword), location, re.IGNORECASE) is not None
+
 
 
 def classify_seniority(title):
@@ -141,18 +166,18 @@ def get_seniority_assessment(title, description, job_titles=None):
             title_score += score
 
     yoe_evidence = get_yoe_evidence(description)
-    yoe_score = 0
+    years_experience_score = 0
 
     for evidence in yoe_evidence:
         years = evidence["minimum_years"]
         if years <= 2:
-            yoe_score -= 2
-        elif years >= 5:
-            yoe_score += 2
+            years_experience_score -= 2
         elif years >= 8:
-            yoe_score += 3
+            years_experience_score += 3
+        elif years >= 5:
+            years_experience_score += 2
 
-    total_score = title_score + yoe_score
+    total_score = title_score + years_experience_score
 
     if total_score >= 3:
         label = "senior"
@@ -163,7 +188,9 @@ def get_seniority_assessment(title, description, job_titles=None):
 
     return {
         "label": label,
-        "score": total_score,
+        "title_score": title_score,
+        "years_experience_score": years_experience_score,
+        "total_score": total_score,
         "job_family": get_job_family(title, job_titles),
         "title_evidence": title_evidence,
         "yoe_evidence": yoe_evidence,
@@ -183,7 +210,54 @@ def get_experience_matches(description):
     return experience_matches
 
 
+@lru_cache(maxsize=None)
+def _keyword_pattern(keyword):
+    """Build a case-insensitive regex that matches a complete keyword."""
+    escaped_keyword = re.escape(keyword).replace(r"\ ", r"\s+")
+    return re.compile(
+        rf"(?<!\w){escaped_keyword}(?!\w)",
+        re.IGNORECASE,
+    )
+
+
+@lru_cache(maxsize=1)
+def _load_keywords():
+    with open(KEYWORDS_FILE, encoding="utf-8") as file:
+        keywords = json.load(file)
+
+    if not isinstance(keywords, list) or not all(
+        isinstance(keyword, str) and keyword.strip() for keyword in keywords
+    ):
+        raise ValueError(f"{KEYWORDS_FILE} must contain a list of non-empty strings")
+
+    return [keyword.strip() for keyword in keywords]
+
+
+def get_keywords(description, top_n=15):
+    """Find configured keywords in a job description using regular expressions."""
+    if not description.strip():
+        return []
+
+    matches = []
+    for keyword in _load_keywords():
+        match_count = len(_keyword_pattern(keyword).findall(description))
+        if match_count:
+            matches.append((keyword, match_count))
+
+    # Keep the output deterministic: most frequently matched keywords first,
+    # then preserve the order from keywords.json for ties.
+    matches.sort(key=lambda item: -item[1])
+    if top_n is not None:
+        matches = matches[:top_n]
+
+    return [
+        {"keyword": keyword}
+        for keyword, _ in matches
+    ]
+
+
 def build_seniority_summary(analyzed_jobs):
+    # 
     counts = {"junior": 0, "mid": 0, "senior": 0}
 
     for job in analyzed_jobs:
