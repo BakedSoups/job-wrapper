@@ -13,8 +13,13 @@ LOCATION_ALIASES = {
     "sunnyvale": ("sunnyvale",),
 }
 EXPERIENCE_PATTERNS = (
-    r"\b(?:\d+(?:\+|[-–]\d+)?\s+)?"
-    r"(?:years of experience|years|year|experience with|experience in|proficient)\b"
+    r"\b\d+(?:\+|[-–]\d+)?\s+years?(?:\s+of)?\s+experience"
+    r"(?:\s+(?:in|with|using|on|as)\s+[^\n.;:]{1,100}?)?"
+    r"(?=\s+and\s+(?:experience|background|proficient)\b|[\n.;:]|$)",
+    r"\b(?:experience|background)\s+(?:with|in)\s+[^\n.;:]{1,100}?"
+    r"(?=\s+and\s+(?:experience|background|proficient)\b|[\n.;:]|$)",
+    r"\bproficient\s+(?:in|with)\s+[^\n.;:]{1,100}?"
+    r"(?=\s+and\s+(?:experience|background|proficient)\b|[\n.;:]|$)",
 )
 YOE_PATTERN = r"\b(?P<years>\d+(?:\+|[-–]\d+)?)\s+years?\b"
 
@@ -199,8 +204,11 @@ def get_seniority_assessment(title, description, job_titles=None):
 
 def get_experience_matches(description):
     experience_matches = []
+    combined_pattern = "|".join(
+        f"(?:{pattern})" for pattern in EXPERIENCE_PATTERNS
+    )
 
-    for match in re.finditer(EXPERIENCE_PATTERNS, description, re.IGNORECASE):
+    for match in re.finditer(combined_pattern, description, re.IGNORECASE):
         experience_match = {
             "match": match.group(),
             "following_text": description[match.end():match.end() + 200].strip(),
