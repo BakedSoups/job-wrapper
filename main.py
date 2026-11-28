@@ -12,7 +12,7 @@ from job_analysis import (
 )
 
 
-COMPANY_TOKEN = "doordashusa"
+COMPANY_TOKEN = "figma"
 LOCATION_FILTER = "sf"  # Examples: "sd", "san francisco", "sf", "sunnyvale"
 
 
@@ -28,10 +28,10 @@ def analyze_jobs(company_token, location_keyword=None):
         ):
             continue
 
-        # uses regex to check how relevent the job is to swe
-        engineering_relevance_score = score_job(job["title"])
         data = get_job(company_token, job["id"])
         description = html_to_text(data.get("content", ""))
+        # Use title signals first, then description evidence for ambiguous titles.
+        engineering_relevance_score = score_job(job["title"], description)
         seniority = get_seniority_assessment(
             job["title"], description, job_titles
         )

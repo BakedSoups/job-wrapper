@@ -7,6 +7,21 @@ from functools import lru_cache
 
 SOFTWARE_PATTERN = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
 ENGINEER_PATTERN = r"\b(engineer|engineering|technical)"
+STRONG_ENGINEERING_TITLE_PATTERN = (
+    r"\b(?:software\s+engineer(?:ing)?|backend|frontend|full.?stack|"
+    r"developer|swe)\b"
+)
+NON_ENGINEERING_TITLE_PATTERN = (
+    r"\b(?:account\s+executive|sales|marketing|designer|design|"
+    r"product\s+manager|recruiting|finance|operations|strategy|"
+    r"researcher|scientist|program\s+manager|consultant|customer|"
+    r"communications|people|legal)\b"
+)
+ENGINEERING_DESCRIPTION_PATTERN = (
+    r"\b(?:software\s+development|software\s+engineering|coding|"
+    r"programming|codebase|backend\s+systems?|frontend\s+systems?|"
+    r"distributed\s+systems?|technical\s+architecture|algorithms?)\b"
+)
 LOCATION_ALIASES = {
     "san_diego": ("sd", "san diego"),
     "san_francisco": ("sf", "san francisco"),
@@ -59,11 +74,27 @@ SENIORITY_TITLE_SCORES = {
 KEYWORDS_FILE = os.path.join(os.path.dirname(__file__), "keywords.json")
 
 
-def score_job(title):
-    if re.search(SOFTWARE_PATTERN, title, re.IGNORECASE):
+def score_job(title, description=""):
+    has_software_signal = re.search(SOFTWARE_PATTERN, title, re.IGNORECASE)
+    has_engineering_signal = re.search(ENGINEER_PATTERN, title, re.IGNORECASE)
+    has_non_engineering_signal = re.search(
+        NON_ENGINEERING_TITLE_PATTERN, title, re.IGNORECASE
+    )
+
+    if re.search(STRONG_ENGINEERING_TITLE_PATTERN, title, re.IGNORECASE):
         return 30
-    if re.search(ENGINEER_PATTERN, title, re.IGNORECASE):
+    if has_software_signal and has_engineering_signal:
+        return 30
+    if has_engineering_signal:
         return 15
+    if has_software_signal and re.search(
+        ENGINEERING_DESCRIPTION_PATTERN, description, re.IGNORECASE
+    ):
+        return 15
+    if has_software_signal and has_non_engineering_signal:
+        return 5
+    if has_software_signal:
+        return 5
     return -5
 
 
