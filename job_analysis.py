@@ -4,6 +4,8 @@ import re
 from collections import Counter, defaultdict
 from functools import lru_cache
 
+from semantic_analysis import extract_semantic_insights
+
 
 SOFTWARE_PATTERN = r"\b(software|Backend|AI|API|Data Pipeline|Big Data)\b"
 ENGINEER_PATTERN = r"\b(engineer|engineering|technical)"
@@ -244,6 +246,9 @@ def get_experience_matches(description):
             "match": match.group(),
             "following_text": description[match.end():match.end() + 200].strip(),
         }
+        experience_match["semantic_insights"] = extract_semantic_insights(
+            experience_match["match"]
+        )
         experience_matches.append(experience_match)
 
     return experience_matches
